@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialCardWithBorder" parent="Widget.MaterialComponents.CardView">
+        <item name="strokeWidth">12dp</item>
+        <item name="strokeColor">@color/secondaryColor</item>
+        <item name="cardBackgroundColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="BorderlessButtonGuessingGame" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline4</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:onClick">pick123</item>
+    </style>
+</resources>
